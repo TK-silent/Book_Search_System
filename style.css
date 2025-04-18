@@ -1,0 +1,46 @@
+/* style.css */
+html, body {
+    height: 100%; /* 让html和body高度充满视窗 */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /* 使用通用字体 */
+}
+
+body {
+    background-image: url('Cave1.png'); /* 替换成你的背景图片路径 */
+    background-size: cover; /* 背景图覆盖整个区域 */
+    background-position: center; /* 背景图居中显示 */
+    background-repeat: no-repeat; /* 背景图不重复 */
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
+
+.search-container {
+    text-align: center; /* 让输入框内的 placeholder 文本也居中（虽然默认就居中） */
+}
+
+#searchInput {
+    padding: 15px 20px; /* 输入框内边距 */
+    font-size: 1.2em; /* 字体大小 */
+    border: 1px solid #ccc; /* 边框 */
+    border-radius: 10px; /* 圆角 */
+    width: 500px; /* 输入框宽度 */
+    max-width: 80%; /* 最大宽度不超过父容器的80% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加一点阴影效果 */
+    outline: none; /* 去掉点击时的默认蓝色边框 */
+}
+
+#searchInput:focus {
+    border-color: #007bff; /* 聚焦时边框变色（可选） */
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3); /* 聚焦时阴影变明显（可选） */
+}
+
+.error-message {
+    color: #ffffff; /* 红色字体 */
+    font-size: 0.9em; /* 稍小一点的字体 */
+    margin-top: 8px; /* 与输入框的间距 */
+    height: 1.2em; /* 预留一点高度，防止出现/消失时页面跳动 */
+    visibility: hidden; /* 默认隐藏 */
+    /* 或者使用 display: none; 但 visibility 更好，因为它保留了空间 */
+}
