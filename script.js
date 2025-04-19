@@ -4,7 +4,7 @@
 //    键 (key) 是用户需要输入的精确字符串
 //    值 (value) 是对应 PDF 文件的相对路径
 const pdfMap = {
-    "文档A": "pdfs/Professional Context Handbook.pdf",
+    "CA-380": "pdfs/CA-380_The_allegory_of_the_cave.pdf",
     "报告2024": "pdfs/report_2024_final.pdf",
     "秘密代码123": "pdfs/secret_project_files/confidential_123.pdf",
     "用户手册": "pdfs/user_manual_v2.pdf"
