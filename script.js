@@ -5,9 +5,12 @@
 //    值 (value) 是对应 PDF 文件的相对路径
 const pdfMap = {
     "CA-380": "pdfs/CA-380_The_allegory_of_the_cave.pdf",
-    "报告2024": "pdfs/report_2024_final.pdf",
-    "秘密代码123": "pdfs/secret_project_files/confidential_123.pdf",
-    "用户手册": "pdfs/user_manual_v2.pdf"
+    "CIPH-014": "pdfs/CIPH-014_ARG_Research.pdf",
+    "ALPHA-001":"pdfs/ALPHA-001_Report_Summary.pdf",
+    "RN-1974":"pdfs/RN-1974_Note_Backup.pdf",
+    "DC-2025":"pdfs/DC-2025_5_23_Record.pdf",
+    //"秘密代码123": "pdfs/secret_project_files/confidential_123.pdf",
+    //"用户手册": "pdfs/user_manual_v2.pdf"
     // 在这里添加更多你的映射关系
     // "需要输入的字符串": "对应的pdf文件路径"
 };
